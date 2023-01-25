@@ -1,0 +1,27 @@
+main: me.liki.Tpa
+name: Tpa
+version: 0.2
+commands:
+  tpa:
+    description: Ask a tp request
+    permission: tpa.tpa
+  tpask:
+    description: Asks a tp request
+    permission: tpa.tpa
+  tpaccept:
+    description: Accept a tp request
+    permission: tpa.tpa
+  tpdeny:
+    description: Deny a tp request
+    permission: tpa.tpa
+  tpyes:
+    description: Accept a tp request
+    permission: tpa.tpa
+  tpno:
+    description: Deny a tp request
+    permission: tpa.tpa
+  tptoggle:
+    description: Disables all tp requests
+    permission: tpa.off
+  back:
+    description: Return on tpa
